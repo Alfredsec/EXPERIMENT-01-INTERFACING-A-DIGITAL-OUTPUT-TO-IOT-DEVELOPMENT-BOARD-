@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 27.03.2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: ALFRED A B
+###  ROLL NO :  212222110002
+###  DEPARTMENT:  CSE(IOT)
 
 
 
@@ -86,12 +86,23 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
-
-
-
-
-
+```PYTHON
+  while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(500);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(500);
+  }
+```
 ## OUTPUT  :
+### LED ON:
+![313057201-d3f98f39-bad1-4bc8-b52d-51c657d6088e](https://github.com/Alfredsec/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/120621608/ecaba52d-1d4a-4119-8447-64b93e8e1969)
+
+### LED OFF:
+![LED OFF](https://github.com/Alfredsec/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/120621608/3237a9e9-de68-4c34-9f81-521bbbff98e1)
+
+
  
  
  
